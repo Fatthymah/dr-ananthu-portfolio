@@ -1,0 +1,188 @@
+import { ClinicalPillar } from '@/types';
+
+export const clinicalPillars: ClinicalPillar[] = [
+  {
+    id: 'laparoscopy',
+    number: '01',
+    title: 'Minimally Invasive & Laparoscopic Surgery',
+    badge: 'FMAS Certified',
+    summary:
+      'Precision keyhole surgical procedures utilizing high-definition optical systems and 5mm micro-incisions to minimize tissue trauma, ensure cosmetic results, and enable fast 24–48 hour hospital discharge.',
+    iconName: 'Activity',
+    colorTheme: 'teal',
+    highlightPoints: [
+      'Tiny 5mm incisions with minimal scarring',
+      'Significantly reduced postoperative discomfort',
+      'Same-day ambulation and early return to normal work',
+      'Lower incidence of wound infection and incisional hernia',
+    ],
+    procedures: [
+      {
+        name: 'Laparoscopic Cholecystectomy (Gallbladder)',
+        technique: 'Multi-port / Reduced-port HD keyhole removal of diseased gallbladder and stones.',
+        benefits: 'Painless recovery, rapid diet resumption, discharge within 24 hours.',
+        daycare: true,
+        recoveryTime: '24–48 Hours',
+      },
+      {
+        name: 'Laparoscopic Hernia Repair (TAPP / TEP / Ventral)',
+        technique: 'Pre-peritoneal and trans-abdominal mesh placement reinforcing the abdominal wall.',
+        benefits: 'Minimal groin pain, zero muscle cutting, virtually no recurrence.',
+        daycare: true,
+        recoveryTime: '2–3 Days',
+      },
+      {
+        name: 'Laparoscopic Appendectomy',
+        technique: 'Emergency or elective keyhole removal of inflamed appendix.',
+        benefits: 'Avoids traditional open incision; rapid return to normal routine.',
+        daycare: true,
+        recoveryTime: '24–36 Hours',
+      },
+      {
+        name: 'Diagnostic Laparoscopy & Adhesiolysis',
+        technique: 'High-definition direct visual assessment of unexplained chronic abdominal pain.',
+        benefits: 'Precise diagnostic confirmation with simultaneous therapeutic intervention.',
+        daycare: false,
+        recoveryTime: '1–2 Days',
+      },
+    ],
+  },
+  {
+    id: 'proctology',
+    number: '02',
+    title: 'Laser Proctology & Anorectal Care',
+    badge: 'MMIP Specialist',
+    summary:
+      'Advanced daycare laser solutions for painful anorectal disorders. Replaces painful traditional excision with non-cutting radial diode laser energy, protecting delicate sphincter muscles and ensuring same-day walking.',
+    iconName: 'Flame',
+    colorTheme: 'emerald',
+    highlightPoints: [
+      'No surgical cutting or deep open wounds',
+      'Preservation of anal sphincter muscles (zero incontinence risk)',
+      'Minimal intraoperative bleeding & negligible post-op pain',
+      'Daycare discharge—patients walk home within hours',
+    ],
+    procedures: [
+      {
+        name: 'Laser Hemorrhoidoplasty (LHP) for Piles',
+        technique: 'Submucosal diode laser shrinkage of hemorrhoidal arterial cushions.',
+        benefits: 'No stitches, no painful open wounds, painless bowel movement post-procedure.',
+        daycare: true,
+        recoveryTime: 'Same Day / 24 Hours',
+      },
+      {
+        name: 'Laser Sphincterolysis for Anal Fissure',
+        technique: 'Controlled laser photocoagulation relieving internal sphincter hypertonia.',
+        benefits: 'Instant relief from burning pain, promotes spontaneous mucosal healing.',
+        daycare: true,
+        recoveryTime: 'Same Day',
+      },
+      {
+        name: 'FiLaC® (Fistula-tract Laser Closure)',
+        technique: 'Circular 360° laser energy ablation sealing the internal fistula tract.',
+        benefits: 'Saves the sphincter mechanism; avoids long-term packing or incontinence.',
+        daycare: true,
+        recoveryTime: '24–48 Hours',
+      },
+      {
+        name: 'Laser Pilonidal Sinus Ablation (EPSiT / L-SiT)',
+        technique: 'Minimally invasive laser coagulation of sinus cavity with hair removal.',
+        benefits: 'Replaces wide excisions that take months to heal; recovery in days.',
+        daycare: true,
+        recoveryTime: '24 Hours',
+      },
+    ],
+  },
+  {
+    id: 'diabetic-foot',
+    number: '03',
+    title: 'Diabetic Foot & Advanced Wound Care',
+    badge: 'FDFM Fellow',
+    summary:
+      'Dedicated limb salvage protocols to prevent diabetic limb amputations. Combines vascular evaluation, meticulous surgical debridement, negative pressure VAC dressing therapy, and custom biomechanical offloading.',
+    iconName: 'ShieldAlert',
+    colorTheme: 'cyan',
+    highlightPoints: [
+      'Rigorous limb salvage focus prioritizing amputation prevention',
+      'Negative Pressure Wound Therapy (NPWT / VAC Dressing) expertise',
+      'Biomechanical pressure offloading & Total Contact Casting (TCC)',
+      'Multidisciplinary coordination ensuring long-term ulcer remission',
+    ],
+    procedures: [
+      {
+        name: 'Limb Salvage & Ulcer Debridement',
+        technique: 'Microsurgical clearance of necrotic tissue, biofilm, and deep bacterial infection.',
+        benefits: 'Halts spreading gangrene, stimulates healthy granulation bed.',
+        daycare: false,
+        recoveryTime: 'Monitored Protocol',
+      },
+      {
+        name: 'Negative Pressure Vacuum Therapy (VAC/NPWT)',
+        technique: 'Sub-atmospheric pressure dressing accelerating wound bed microcirculation.',
+        benefits: 'Dramatically faster wound closure, reduced need for major reconstructive flaps.',
+        daycare: true,
+        recoveryTime: 'Structured Cycle',
+      },
+      {
+        name: 'Surgical & Biomechanical Offloading (TCC)',
+        technique: 'Pressure-redistributing total contact casting and Achilles tendon lengthening.',
+        benefits: 'Removes pressure from vulnerable plantar ulcers, preventing recurrence.',
+        daycare: true,
+        recoveryTime: 'Immediate Mobility',
+      },
+      {
+        name: 'Charcot Foot & Deformity Stabilization',
+        technique: 'Early clinical immobilization, joint protection, and surgical reconstruction.',
+        benefits: 'Preserves the foot arch, maintains balance, keeps patients walking.',
+        daycare: false,
+        recoveryTime: 'Personalized Pathway',
+      },
+    ],
+  },
+  {
+    id: 'general-surgery',
+    number: '04',
+    title: 'General & Emergency Surgical Care',
+    badge: 'MS & DNB Surgeon',
+    summary:
+      'Grounded in rigorous surgical training from Calicut Medical College and GMC Manjery. Delivers comprehensive diagnostic evaluation and surgical management of thyroid, breast, soft-tissue swellings, and acute surgical emergencies.',
+    iconName: 'Stethoscope',
+    colorTheme: 'blue',
+    highlightPoints: [
+      'Comprehensive preoperative workup with high diagnostic accuracy',
+      'Aesthetic, cosmetically refined wound closure techniques',
+      'Rapid clinical triage for acute abdominal surgical emergencies',
+      'Empathetic, clear communication of every treatment option',
+    ],
+    procedures: [
+      {
+        name: 'Thyroid & Salivary Gland Surgery',
+        technique: 'Hemithyroidectomy / Total Thyroidectomy with recurrent laryngeal nerve monitoring.',
+        benefits: 'Cosmetic collar line incisions, voice preservation, complete nodule removal.',
+        daycare: false,
+        recoveryTime: '2–3 Days',
+      },
+      {
+        name: 'Breast Lumps Excision & Core Biopsy',
+        technique: 'Targeted excision of fibroadenomas, cysts, and diagnostic histopathology.',
+        benefits: 'Hidden circumareolar scars, fast tissue confirmation, minimal discomfort.',
+        daycare: true,
+        recoveryTime: '24 Hours',
+      },
+      {
+        name: 'Soft Tissue Swellings, Lipomas & Sebaceous Cysts',
+        technique: 'Precision radiofrequency or surgical excision with meticulous subcuticular closure.',
+        benefits: 'Quick local anesthesia daycare procedure with aesthetic cosmetic outcome.',
+        daycare: true,
+        recoveryTime: 'Immediate',
+      },
+      {
+        name: 'Hydrocele, Circumcision & Scrotal Surgeries',
+        technique: 'Jaboulay hydrocelectomy and modern plastibell/laser-assisted circumcision.',
+        benefits: 'Minimal swelling, zero tension, rapid recovery.',
+        daycare: true,
+        recoveryTime: '24–48 Hours',
+      },
+    ],
+  },
+];
