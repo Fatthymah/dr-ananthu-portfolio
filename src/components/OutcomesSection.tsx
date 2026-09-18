@@ -13,7 +13,7 @@ export default function OutcomesSection() {
           <span className="text-xs font-bold font-heading text-teal-700 uppercase tracking-widest bg-teal-50 px-3.5 py-1.5 rounded-full border border-teal-200 inline-block">
             Evidence-Based Care Standards
           </span>
-          <h2 className="text-3xl sm:text-4xl lg:text-5xl font-heading font-extrabold text-slate-900 tracking-tight leading-tight">
+          <h2 className="text-2xl sm:text-3xl lg:text-4xl font-heading font-bold text-slate-900 tracking-tight leading-tight">
             Clinical metrics that reflect surgical precision.
           </h2>
           <p className="text-slate-600 text-sm sm:text-base font-body leading-relaxed">
@@ -39,10 +39,10 @@ export default function OutcomesSection() {
                 </div>
 
                 <div className="my-3">
-                  <span className="font-heading font-black text-3xl sm:text-4xl text-slate-900 tracking-tight block text-transparent bg-clip-text bg-gradient-to-r from-teal-700 to-emerald-600">
+                  <span className="font-heading font-bold text-2xl sm:text-3xl text-slate-900 tracking-tight block text-transparent bg-clip-text bg-gradient-to-r from-teal-700 to-emerald-600">
                     {outcome.metric}
                   </span>
-                  <span className="text-xs font-heading font-bold text-slate-800 uppercase tracking-wide mt-1 block">
+                  <span className="text-xs font-heading font-semibold text-slate-800 uppercase tracking-wide mt-1 block">
                     {outcome.label}
                   </span>
                 </div>
@@ -67,7 +67,7 @@ export default function OutcomesSection() {
               <ShieldCheck className="w-5 h-5" />
             </div>
             <div>
-              <h4 className="text-sm font-heading font-bold text-slate-900">
+              <h4 className="text-sm font-heading font-semibold text-slate-900">
                 Patient-First Medical Ethics
               </h4>
               <p className="text-xs text-slate-600 font-body leading-relaxed">

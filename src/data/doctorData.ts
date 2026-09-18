@@ -5,7 +5,7 @@ export const doctorData: DoctorProfile = {
   salutation: 'Dr.',
   designation: 'Specialist General Surgeon',
   shortBio:
-    'Specialist General Surgeon based in Kozhikode, Kerala, with advanced fellowship training in Minimal Access Surgery (FMAS), Laser Proctology (MMIP), and Diabetic Foot Limb Salvage (FDFM). Consultant at Star Care Hospital Kozhikode.',
+    'Specialist General Surgeon based in Kozhikode, Kerala, with advanced fellowship training in Minimal Access Surgery (FMAS), Laser Proctology (MMIP), and Diabetic Foot Limb Salvage (FDFM).',
   degrees: ['MBBS', 'MS (General Surgery)', 'DNB (General Surgery)'],
   fellowships: [
     {
@@ -46,7 +46,7 @@ export const doctorData: DoctorProfile = {
   ],
   currentRole: {
     title: 'Consultant General Surgeon',
-    hospital: 'Star Care Hospital',
+    hospital: 'Consulting Practice',
     location: 'Kozhikode, Kerala',
     since: 'March 2025 – Present',
   },
@@ -63,6 +63,6 @@ export const doctorData: DoctorProfile = {
     'Dr. Ananthu N is a Specialist General Surgeon based in Kozhikode, Kerala, dedicated to delivering modern, precise, and patient-centred surgical care. He completed his MBBS (2012–2018) and his MS in General Surgery (2020–2023) from Government Medical College Kozhikode, one of Kerala’s premier institutes for surgical training.',
     'Following his postgraduate residency, Dr. Ananthu served as a Senior Resident in the Department of General Surgery at Government Medical College, Manjery (March 2024 – March 2025), gaining extensive experience in handling complex trauma, acute surgical emergencies, and high-volume surgical care.',
     'With a strong commitment to minimally invasive patient outcomes, he pursued three focused sub-specialty fellowships: Fellowship in Minimal Access Surgery (FMAS), Master Course in Minimal Invasive Proctology (MMIP), and Fellowship in Diabetic Foot Management (FDFM).',
-    'Currently practicing as Consultant General Surgeon at Star Care Hospital Kozhikode, his clinical focus combines sound surgical fundamentals with cutting-edge laparoscopic keyhole techniques, daycare laser proctology, and dedicated diabetic foot limb preservation pathways.',
+    'Practicing as Consultant General Surgeon in Kozhikode, his clinical focus combines sound surgical fundamentals with cutting-edge laparoscopic keyhole techniques, daycare laser proctology, and dedicated diabetic foot limb preservation pathways.',
   ],
 };

@@ -8,7 +8,7 @@ export default function TrustTicker() {
     'Association of Surgeons of India (ASI)',
     'Association of Minimal Access Surgeons of India (AMASI)',
     'Government Medical College Kozhikode Alumnus',
-    'Consultant General Surgeon • Star Care Hospital Kozhikode',
+    'Consultant General & Laparoscopic Surgeon',
     'Fellow in Minimal Access Surgery (FMAS)',
     'Master in Minimal Invasive Proctology (MMIP)',
     'Fellow in Diabetic Foot Management (FDFM)',

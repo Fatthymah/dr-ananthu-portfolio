@@ -64,7 +64,7 @@ export default function TechnologyFeature() {
             <Zap className="w-3.5 h-3.5" />
             <span>Modern Surgical Technology</span>
           </div>
-          <h2 className="text-3xl sm:text-4xl lg:text-5xl font-heading font-extrabold text-white tracking-tight leading-tight">
+          <h2 className="text-2xl sm:text-3xl lg:text-4xl font-heading font-bold text-white tracking-tight leading-tight">
             Advanced medical instruments driving safer clinical outcomes.
           </h2>
           <p className="text-slate-300 text-sm sm:text-base font-body leading-relaxed">
@@ -91,13 +91,13 @@ export default function TechnologyFeature() {
                 <Monitor className="w-3.5 h-3.5" />
                 <span>State-of-the-Art Surgical Theater</span>
               </span>
-              <h3 className="text-2xl sm:text-3xl font-heading font-extrabold text-white leading-tight">
+              <h3 className="text-xl sm:text-2xl font-heading font-bold text-white leading-tight">
                 High-Definition Laparoscopy & Laser Suites
               </h3>
               <p className="text-slate-300 text-xs sm:text-sm font-body leading-relaxed">
-                Operating inside Star Care Hospital’s advanced minimally invasive theater, Dr. Ananthu
-                utilizes magnified endoscopic monitors and micro-instrumentation to perform complex
-                abdominal and daycare proctological operations with millimeter precision.
+                Utilizing advanced minimally invasive surgical suites, Dr. Ananthu operates with
+                high-definition endoscopic monitors and micro-instrumentation to perform complex
+                abdominal and daycare proctological procedures with millimeter precision.
               </p>
               <div className="pt-2 flex flex-wrap gap-2 text-[11px] font-bold text-teal-200">
                 <span className="bg-white/10 px-3 py-1 rounded-lg border border-white/15">
@@ -131,7 +131,7 @@ export default function TechnologyFeature() {
               >
                 <div className="space-y-4 text-left">
                   <div className="flex items-center justify-between gap-2">
-                    <span className="text-[10px] font-extrabold font-heading uppercase tracking-wider px-3 py-1 rounded-full bg-teal-500/20 text-teal-300 border border-teal-500/30">
+                    <span className="text-[10px] font-bold font-heading uppercase tracking-wider px-3 py-1 rounded-full bg-teal-500/20 text-teal-300 border border-teal-500/30">
                       {tech.badge}
                     </span>
                     <span className="text-xs font-mono text-slate-400 font-bold">
@@ -139,7 +139,7 @@ export default function TechnologyFeature() {
                     </span>
                   </div>
 
-                  <h3 className="text-xl font-heading font-extrabold text-white leading-snug">
+                  <h3 className="text-lg font-heading font-bold text-white leading-snug">
                     {tech.title}
                   </h3>
 

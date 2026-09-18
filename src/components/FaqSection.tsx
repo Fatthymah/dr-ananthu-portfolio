@@ -34,12 +34,12 @@ export default function FaqSection() {
             <HelpCircle className="w-3.5 h-3.5 text-teal-600" />
             <span>Frequently Asked Questions</span>
           </div>
-          <h2 className="text-3xl sm:text-4xl lg:text-5xl font-heading font-extrabold text-slate-900 tracking-tight leading-tight">
+          <h2 className="text-2xl sm:text-3xl lg:text-4xl font-heading font-bold text-slate-900 tracking-tight leading-tight">
             Clear answers to common patient questions.
           </h2>
           <p className="text-slate-600 text-sm sm:text-base font-body leading-relaxed">
             Understanding your surgical procedures, preparation, and recovery expectations before your
-            consultation at Star Care Hospital.
+            consultation.
           </p>
         </div>
 
@@ -87,7 +87,7 @@ export default function FaqSection() {
                     >
                       0{idx + 1}
                     </span>
-                    <h3 className="font-heading font-bold text-sm sm:text-lg text-slate-900 leading-snug">
+                    <h3 className="font-heading font-semibold text-sm sm:text-base text-slate-900 leading-snug">
                       {faq.question}
                     </h3>
                   </div>

@@ -43,7 +43,7 @@ export default function Home() {
       {/* Evidence-Based Clinical Outcomes & Standards */}
       <OutcomesSection />
 
-      {/* Star Care Hospital Kozhikode OPD Schedule & Map */}
+      {/* Consultation Schedule & OPD Desk */}
       <HospitalOPD />
 
       {/* Patient Education & Interactive Accordion FAQ */}

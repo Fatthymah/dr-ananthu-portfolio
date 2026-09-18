@@ -67,7 +67,7 @@ export default function Hero() {
           {/* Bottom/Foreground: Hero Essential Text & CTA Button (Fully Enclosed within the Green) */}
           <div className="relative z-20 w-full p-5 sm:p-12 lg:p-16 pb-10 sm:pb-16 max-w-xl text-left space-y-3 sm:space-y-6">
             {/* Headline */}
-            <h1 className="text-2xl sm:text-4xl lg:text-6xl font-heading font-extrabold text-white tracking-tight leading-[1.15] drop-shadow-sm break-words">
+            <h1 className="text-2xl sm:text-3xl lg:text-5xl font-heading font-bold text-white tracking-tight leading-[1.18] drop-shadow-sm break-words">
               Strategic Precision.
               <br />
               Compassionate Care.
@@ -75,7 +75,7 @@ export default function Hero() {
 
             {/* Concise Description - 100% on Green Background */}
             <p className="text-xs sm:text-base lg:text-lg text-white/95 font-body leading-relaxed drop-shadow-xs max-w-lg">
-              Specialist General & Minimally Invasive Surgeon at Star Care Hospital Kozhikode. Dedicated to advanced laparoscopic surgery, painless daycare proctology, and limb-salvage wound management.
+              Specialist General & Minimally Invasive Surgeon based in Kozhikode. Dedicated to advanced laparoscopic surgery, painless daycare proctology, and limb-salvage wound management.
             </p>
 
             {/* Pill CTA Button */}

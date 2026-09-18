@@ -36,10 +36,10 @@ export default function Header() {
                   className="w-full h-full object-cover object-top"
                 />
               </div>
-              <span className="px-2 py-0.5 rounded-md bg-teal-50 border border-teal-200 text-teal-800 font-heading font-black text-[11px] sm:text-xs tracking-wider uppercase shadow-2xs group-hover:bg-teal-100 transition-colors">
+              <span className="px-2 py-0.5 rounded-md bg-teal-50 border border-teal-200 text-teal-800 font-heading font-bold text-[11px] sm:text-xs tracking-wider uppercase shadow-2xs group-hover:bg-teal-100 transition-colors">
                 Dr.
               </span>
-              <span className="font-heading font-extrabold text-slate-900 text-sm sm:text-base tracking-tight group-hover:text-teal-700 transition-colors whitespace-nowrap">
+              <span className="font-heading font-bold text-slate-900 text-sm sm:text-base tracking-tight group-hover:text-teal-700 transition-colors whitespace-nowrap">
                 Ananthu N
               </span>
             </a>
@@ -117,7 +117,7 @@ export default function Header() {
                     className="w-full h-full object-cover object-top"
                   />
                 </div>
-                <span className="px-2 py-0.5 rounded-md bg-teal-50 border border-teal-200 text-teal-800 font-heading font-black text-xs uppercase">
+                <span className="px-2 py-0.5 rounded-md bg-teal-50 border border-teal-200 text-teal-800 font-heading font-bold text-xs uppercase">
                   Dr.
                 </span>
                 <span className="font-heading font-bold text-slate-900 text-sm">
@@ -125,7 +125,7 @@ export default function Header() {
                 </span>
               </div>
               <span className="px-2.5 py-1 bg-teal-50 text-teal-800 text-[10px] font-bold rounded-full border border-teal-200">
-                Star Care Hospital
+                Kozhikode, Kerala
               </span>
             </div>
 
@@ -148,11 +148,11 @@ export default function Header() {
                 className="w-full min-h-[44px] inline-flex items-center justify-center gap-2 px-4 py-2.5 bg-slate-100 text-slate-800 hover:bg-slate-200 rounded-xl text-xs font-heading font-bold transition-colors"
               >
                 <Phone className="w-4 h-4 text-teal-600" />
-                <span>Call Star Care OPD</span>
+                <span>Call Consultation Desk</span>
               </a>
               <a
                 href={`https://wa.me/${doctorData.contact.whatsappNumber}?text=${encodeURIComponent(
-                  'Hello Dr. Ananthu N, I would like to inquire about an OPD consultation at Star Care Hospital.'
+                  'Hello Dr. Ananthu N, I would like to inquire about a clinical consultation.'
                 )}`}
                 target="_blank"
                 rel="noopener noreferrer"

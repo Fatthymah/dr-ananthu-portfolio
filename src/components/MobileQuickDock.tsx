@@ -6,7 +6,7 @@ import { Phone, Calendar, MessageSquare } from 'lucide-react';
 
 export default function MobileQuickDock() {
   const whatsappUrl = `https://wa.me/${doctorData.contact.whatsappNumber}?text=${encodeURIComponent(
-    'Hello Dr. Ananthu N, I would like to inquire about an appointment at Star Care Hospital.'
+    'Hello Dr. Ananthu N, I would like to inquire about a clinical appointment.'
   )}`;
 
   return (
@@ -21,11 +21,11 @@ export default function MobileQuickDock() {
             />
           </div>
           <div className="text-left leading-tight min-w-0">
-            <p className="text-xs font-heading font-extrabold text-white truncate">
+            <p className="text-xs font-heading font-bold text-white truncate">
               Dr. Ananthu N
             </p>
             <p className="text-[10px] text-teal-300 font-semibold truncate">
-              Star Care OPD
+              General Surgeon
             </p>
           </div>
         </div>

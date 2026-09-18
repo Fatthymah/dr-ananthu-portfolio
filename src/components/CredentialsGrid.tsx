@@ -79,7 +79,7 @@ export default function CredentialsGrid() {
           <span className="text-xs font-bold font-heading uppercase tracking-widest text-teal-300 bg-teal-500/20 px-4 py-1.5 rounded-full border border-teal-500/30 inline-block backdrop-blur-md">
             Medical Degrees & Surgical Fellowships
           </span>
-          <h2 className="text-3xl sm:text-4xl lg:text-5xl font-heading font-extrabold text-white tracking-tight leading-tight">
+          <h2 className="text-2xl sm:text-3xl lg:text-4xl font-heading font-bold text-white tracking-tight leading-tight">
             Rigorous surgical training from premiere institutions.
           </h2>
           <p className="text-slate-300 text-sm sm:text-base font-body leading-relaxed max-w-2xl mx-auto">
@@ -97,7 +97,7 @@ export default function CredentialsGrid() {
             >
               <div>
                 <div className="flex flex-wrap items-center justify-between gap-2 mb-4">
-                  <span className={`text-[10px] font-extrabold font-heading uppercase tracking-wider px-2.5 sm:px-3 py-1 rounded-full border ${cred.badgeColor}`}>
+                  <span className={`text-[10px] font-bold font-heading uppercase tracking-wider px-2.5 sm:px-3 py-1 rounded-full border ${cred.badgeColor}`}>
                     {cred.type}
                   </span>
                   <span className="text-[11px] sm:text-xs font-mono font-bold text-teal-300 bg-slate-900/60 px-2.5 py-0.5 rounded-md border border-white/10">
@@ -105,7 +105,7 @@ export default function CredentialsGrid() {
                   </span>
                 </div>
 
-                <h3 className="text-xl sm:text-2xl font-heading font-black text-white leading-snug">
+                <h3 className="text-lg sm:text-xl font-heading font-bold text-white leading-snug">
                   {cred.code}
                 </h3>
                 <p className="text-xs font-semibold text-teal-200 mt-1">

@@ -24,9 +24,9 @@ export const faqData: FaqItem[] = [
   },
   {
     id: '4',
-    question: 'How can I schedule an OPD consultation with Dr. Ananthu N at Star Care Hospital?',
+    question: 'How can I schedule an OPD consultation with Dr. Ananthu N?',
     answer:
-      'You can schedule a consultation by clicking the "Book Star Care OPD" or "WhatsApp Doctor" button on this website, calling the OPD desk directly at +91 88914 68763, or visiting the Department of General & Laparoscopic Surgery at Star Care Hospital, Thondayad Bypass, Kozhikode. Regular OPD hours run Monday to Saturday from 09:30 AM to 04:30 PM.',
+      'You can schedule a consultation by clicking the "WhatsApp Doctor" button or booking form on this website, or calling directly at +91 88914 68763 in Kozhikode. Regular consultation hours run Monday to Saturday from 09:30 AM to 04:30 PM.',
     category: 'general',
   },
   {

@@ -1,17 +1,17 @@
 import { HospitalSchedule } from '@/types';
 
 export const hospitalSchedule: HospitalSchedule = {
-  hospitalName: 'Star Care Hospital',
-  tagline: 'Leading Multispecialty Surgical Center in Kozhikode',
-  department: 'Department of General, Minimally Invasive & Laser Surgery',
-  address: 'NH Bypass Junction, Thondayad, Kozhikode (Calicut), Kerala 673017',
+  hospitalName: 'Clinical Consultation',
+  tagline: 'Specialist Surgical & OPD Care in Kozhikode',
+  department: 'General, Minimally Invasive & Laser Surgery',
+  address: 'Kozhikode (Calicut), Kerala',
   city: 'Kozhikode, Kerala',
   days: 'Monday – Saturday',
-  timings: '09:30 AM – 04:30 PM (OPD Consultations)',
+  timings: '09:30 AM – 04:30 PM',
   phone: '8891468763',
   displayPhone: '+91 88914 68763',
-  emergencyPhone: '0495 248 9000',
+  emergencyPhone: '+91 88914 68763',
   email: 'ananthu.nandakumar@gmail.com',
-  bookingNote: 'Prior appointment is recommended to avoid waiting. Walk-in emergency consultations are routed via the Casualty department 24/7.',
-  googleMapsUrl: 'https://maps.google.com/?q=Star+Care+Hospital+Kozhikode',
+  bookingNote: 'Prior appointment is recommended for clinical consultation.',
+  googleMapsUrl: 'https://maps.google.com/?q=Kozhikode+Kerala',
 };

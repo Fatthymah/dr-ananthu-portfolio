@@ -8,13 +8,13 @@ export default function ExperienceTimeline() {
     {
       period: 'March 2025 – Present',
       role: 'Consultant General Surgeon',
-      organization: 'Star Care Hospital Kozhikode',
+      organization: 'Specialist Surgical Practice',
       location: 'Kozhikode (Calicut), Kerala',
       badge: 'Current Clinical Appointment',
       badgeColor: 'bg-emerald-50 text-emerald-800 border-emerald-200',
       isCurrent: true,
       description:
-        'Conducting specialized OPD consultations, elective laparoscopic interventions (gallbladder, hernia, appendix), daycare laser proctology (LHP, FiLaC), and diabetic foot limb preservation surgeries at premier private hospital.',
+        'Conducting specialized OPD consultations, elective laparoscopic interventions (gallbladder, hernia, appendix), daycare laser proctology (LHP, FiLaC), and diabetic foot limb preservation surgeries.',
       highlights: [
         'Dedicated Department of Minimally Invasive & Laser Surgery',
         'Regular OPD Consultations (Monday – Saturday)',
@@ -138,12 +138,12 @@ export default function ExperienceTimeline() {
           <span className="text-xs font-bold font-heading text-teal-700 uppercase tracking-widest bg-teal-50 px-3.5 py-1.5 rounded-full border border-teal-200 inline-block">
             Career Journey & Experience
           </span>
-          <h2 className="text-3xl sm:text-4xl lg:text-5xl font-heading font-extrabold text-slate-900 tracking-tight leading-tight">
+          <h2 className="text-2xl sm:text-3xl lg:text-4xl font-heading font-bold text-slate-900 tracking-tight leading-tight">
             A proven record of clinical & surgical service.
           </h2>
           <p className="text-slate-600 text-sm sm:text-base font-body leading-relaxed">
             From the demanding surgical casualty wards of Government Medical College Kozhikode to
-            advanced laparoscopic and laser consultation at Star Care Hospital.
+            advanced laparoscopic and laser surgical consultation in Kozhikode.
           </p>
         </div>
 
@@ -188,7 +188,7 @@ export default function ExperienceTimeline() {
                   </div>
                 </div>
 
-                <h3 className="text-xl sm:text-2xl font-heading font-extrabold text-slate-900 leading-snug">
+                <h3 className="text-lg sm:text-xl font-heading font-bold text-slate-900 leading-snug">
                   {exp.role}
                 </h3>
 

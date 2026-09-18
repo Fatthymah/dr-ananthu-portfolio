@@ -23,16 +23,15 @@ export const viewport: Viewport = {
 };
 
 export const metadata: Metadata = {
-  title: "Dr. Ananthu N | Specialist General Surgeon | Star Care Hospital Kozhikode",
+  title: "Dr. Ananthu N | Specialist General Surgeon | Kozhikode",
   description:
-    "Official website of Dr. Ananthu N (MBBS, MS, DNB, FMAS, FDFM, MMIP). Consultant General Surgeon at Star Care Hospital Kozhikode specializing in Laparoscopic Surgery, Daycare Laser Proctology, and Diabetic Foot Limb Salvage.",
+    "Official website of Dr. Ananthu N (MBBS, MS, DNB, FMAS, FDFM, MMIP). Specialist General Surgeon in Kozhikode specializing in Laparoscopic Surgery, Daycare Laser Proctology, and Diabetic Foot Limb Salvage.",
   keywords: [
     "Dr Ananthu N",
     "General Surgeon Kozhikode",
     "Laparoscopic Surgeon Calicut",
     "Laser Proctologist Kozhikode",
     "Diabetic Foot Surgeon Kerala",
-    "Star Care Hospital Kozhikode",
     "Piles Laser Surgery Calicut",
     "Hernia Laparoscopic Repair Calicut",
     "Gallbladder Laparoscopy Calicut",
@@ -44,16 +43,16 @@ export const metadata: Metadata = {
     type: "website",
     locale: "en_IN",
     url: "https://drananthun.com",
-    title: "Dr. Ananthu N | Specialist General Surgeon | Star Care Hospital Kozhikode",
+    title: "Dr. Ananthu N | Specialist General Surgeon | Kozhikode",
     description:
-      "Specialist in Minimal Access Keyhole Surgery, Painless Laser Proctology, and Advanced Diabetic Foot Care. Consultant General Surgeon at Star Care Hospital, Kozhikode.",
+      "Specialist in Minimal Access Keyhole Surgery, Painless Laser Proctology, and Advanced Diabetic Foot Care based in Kozhikode.",
     siteName: "Dr. Ananthu N Portfolio",
   },
   twitter: {
     card: "summary_large_image",
     title: "Dr. Ananthu N | Specialist General Surgeon",
     description:
-      "Consultant General Surgeon at Star Care Hospital Kozhikode. Laparoscopy, Laser Proctology & Diabetic Foot Limb Salvage.",
+      "Consultant General Surgeon based in Kozhikode. Laparoscopy, Laser Proctology & Diabetic Foot Limb Salvage.",
   },
   icons: {
     icon: "/favicon.ico",
@@ -77,17 +76,11 @@ export default function RootLayout({
     ],
     telephone: "+91-8891468763",
     email: "ananthu.nandakumar@gmail.com",
-    hospitalAffiliation: {
-      "@type": "Hospital",
-      name: "Star Care Hospital Kozhikode",
-      address: {
-        "@type": "PostalAddress",
-        streetAddress: "NH Bypass Junction, Thondayad",
-        addressLocality: "Kozhikode",
-        addressRegion: "Kerala",
-        postalCode: "673017",
-        addressCountry: "IN",
-      },
+    address: {
+      "@type": "PostalAddress",
+      addressLocality: "Kozhikode",
+      addressRegion: "Kerala",
+      addressCountry: "IN",
     },
     alumniOf: {
       "@type": "EducationalOrganization",
