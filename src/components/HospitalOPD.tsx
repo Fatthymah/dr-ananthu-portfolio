@@ -24,12 +24,12 @@ export default function HospitalOPD() {
           <div className="relative w-full max-w-md h-60 sm:h-72 rounded-2xl overflow-hidden shadow-sm border border-slate-200 group mb-6">
             <img
               src="/images/doctor-rounds.jpg"
-              alt="Dr. Ananthu N"
+              alt="Dr. Ananthu N at Star Care Hospital"
               className="w-full h-full object-cover object-top transition-transform duration-500 group-hover:scale-105"
             />
             <div className="absolute inset-0 bg-gradient-to-t from-slate-900/60 via-transparent to-transparent pointer-events-none" />
             <span className="absolute bottom-3 left-1/2 -translate-x-1/2 text-[10px] font-semibold text-white bg-slate-900/80 px-2.5 py-1 rounded-md backdrop-blur-xs whitespace-nowrap">
-              Clinical Consultation
+              Star Care Hospital OPD
             </span>
           </div>
 
@@ -37,23 +37,23 @@ export default function HospitalOPD() {
           <div className="space-y-4 text-center max-w-md mx-auto">
             <div>
               <span className="text-[11px] font-bold uppercase tracking-wider text-teal-700 font-heading block">
-                Direct Appointment & Inquiries
+                Star Care Hospital • Direct Appointments
               </span>
               <h3 className="text-xl sm:text-2xl font-heading font-bold text-slate-900 mt-1 leading-snug">
                 Dr. Ananthu N
               </h3>
               <p className="text-xs sm:text-sm text-slate-600 font-body mt-2 leading-relaxed">
-                For clinical appointments, second opinions, and surgical consultations:
+                For clinical appointments, second opinions, and surgical consultations at Star Care Hospital:
               </p>
             </div>
 
             <div className="pt-1 flex justify-center">
               <a
-                href="tel:8891468763"
+                href="tel:+914952489000"
                 className="inline-flex items-center justify-center gap-3 px-6 py-3.5 bg-gradient-to-r from-teal-700 to-emerald-600 hover:from-teal-800 hover:to-emerald-700 text-white rounded-2xl text-base sm:text-lg font-heading font-bold shadow-sm hover:shadow-md transition-all group"
               >
                 <Phone className="w-4 h-4 sm:w-5 sm:h-5 text-white shrink-0 group-hover:scale-110 transition-transform" />
-                <span>8891468763</span>
+                <span>+91 495 248 9000</span>
               </a>
             </div>
 

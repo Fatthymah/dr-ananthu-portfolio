@@ -22,10 +22,13 @@ export default function BookingSection() {
                 <Hospital className="w-6 h-6 sm:w-7 sm:h-7" />
               </div>
               <div>
-                <h3 className="text-lg sm:text-xl lg:text-2xl font-heading font-semibold text-white">
+                <span className="text-[11px] font-bold uppercase tracking-wider text-teal-400 font-heading block">
                   Clinical Consultation Desk
+                </span>
+                <h3 className="text-xl sm:text-2xl lg:text-3xl font-heading font-bold text-white mt-0.5">
+                  Star Care Hospital
                 </h3>
-                <p className="text-xs sm:text-sm text-teal-300 font-medium mt-0.5">Kozhikode, Kerala</p>
+                <p className="text-xs sm:text-sm text-teal-300/90 font-medium mt-0.5">Kozhikode, Kerala</p>
               </div>
             </div>
           </div>
@@ -51,8 +54,11 @@ export default function BookingSection() {
               <Phone className="w-5 h-5 text-teal-400 shrink-0 mt-0.5" />
               <div>
                 <span className="font-bold text-white block mb-1">Direct Consultation Phone:</span>
-                <a href={`tel:+91${doctorData.contact.phone}`} className="text-teal-300 hover:underline">
-                  {doctorData.contact.displayPhone}
+                <a
+                  href="tel:+914952489000"
+                  className="text-teal-300 hover:text-teal-200 font-semibold text-sm sm:text-base hover:underline tracking-wide block mt-0.5"
+                >
+                  +91 495 248 9000
                 </a>
               </div>
             </div>

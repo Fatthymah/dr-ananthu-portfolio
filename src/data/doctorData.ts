@@ -46,13 +46,13 @@ export const doctorData: DoctorProfile = {
   ],
   currentRole: {
     title: 'Consultant General Surgeon',
-    hospital: 'Consulting Practice',
+    hospital: 'Star Care Hospital',
     location: 'Kozhikode, Kerala',
     since: 'March 2025 – Present',
   },
   contact: {
-    phone: '8891468763',
-    displayPhone: '+91 88914 68763',
+    phone: '4952489000',
+    displayPhone: '+91 495 248 9000',
     email: 'ananthu.nandakumar@gmail.com',
     linkedIn: 'https://www.linkedin.com/in/dr-ananthu-n-123223134',
     whatsappNumber: '918891468763',

@@ -148,7 +148,7 @@ export default function Header() {
                 className="w-full min-h-[44px] inline-flex items-center justify-center gap-2 px-4 py-2.5 bg-slate-100 text-slate-800 hover:bg-slate-200 rounded-xl text-xs font-heading font-bold transition-colors"
               >
                 <Phone className="w-4 h-4 text-teal-600" />
-                <span>Call Consultation Desk</span>
+                <span>Call Star Care (+91 495 248 9000)</span>
               </a>
               <a
                 href={`https://wa.me/${doctorData.contact.whatsappNumber}?text=${encodeURIComponent(

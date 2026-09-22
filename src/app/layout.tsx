@@ -74,7 +74,7 @@ export default function RootLayout({
       "GeneralSurgery",
       "SurgicalProcedure",
     ],
-    telephone: "+91-8891468763",
+    telephone: "+91-495-2489000",
     email: "ananthu.nandakumar@gmail.com",
     address: {
       "@type": "PostalAddress",

@@ -26,7 +26,7 @@ export const faqData: FaqItem[] = [
     id: '4',
     question: 'How can I schedule an OPD consultation with Dr. Ananthu N?',
     answer:
-      'You can schedule a consultation by clicking the "WhatsApp Doctor" button or booking form on this website, or calling directly at +91 88914 68763 in Kozhikode. Regular consultation hours run Monday to Saturday from 09:30 AM to 04:30 PM.',
+      'You can schedule a consultation by clicking the "WhatsApp Doctor" button or booking form on this website, or calling Star Care Hospital directly at +91 495 248 9000 in Kozhikode. Regular consultation hours run Monday to Saturday from 09:30 AM to 04:30 PM.',
     category: 'general',
   },
   {

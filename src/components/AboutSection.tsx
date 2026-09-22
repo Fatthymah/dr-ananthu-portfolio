@@ -16,7 +16,7 @@ export default function AboutSection() {
     {
       icon: Target,
       title: 'Precision in Surgery',
-      desc: 'Employing gold-standard surgical techniques, minimal tissue dissection, and high-definition optical guidance for optimal anatomical recovery.',
+      desc: 'Every procedure is guided by meticulous planning, refined surgical technique, and attention to detail. Our focus is on achieving precise results while prioritizing safety, faster recovery, and patient comfort.',
     },
     {
       icon: Compass,
