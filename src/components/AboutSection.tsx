@@ -91,7 +91,7 @@ export default function AboutSection() {
           <div className="lg:col-span-6 xl:col-span-6 flex justify-center">
             <div className="relative w-full max-w-lg lg:max-w-none rounded-3xl overflow-hidden shadow-md border border-slate-200/90 bg-slate-100 aspect-[4/3]">
               <img
-                src="/images/doctor-consultation.jpg"
+                src="/images/doctor-philosophy-real.png"
                 alt="Dr. Ananthu N consulting with patient in Kozhikode"
                 className="w-full h-full object-cover"
               />

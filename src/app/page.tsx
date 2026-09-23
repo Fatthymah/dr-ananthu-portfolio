@@ -7,7 +7,6 @@ import SpecialtiesSection from '@/components/SpecialtiesSection';
 import TechnologyFeature from '@/components/TechnologyFeature';
 import ExperienceTimeline from '@/components/ExperienceTimeline';
 import OutcomesSection from '@/components/OutcomesSection';
-import HospitalOPD from '@/components/HospitalOPD';
 import FaqSection from '@/components/FaqSection';
 import BookingSection from '@/components/BookingSection';
 import MobileQuickDock from '@/components/MobileQuickDock';
@@ -42,9 +41,6 @@ export default function Home() {
 
       {/* Evidence-Based Clinical Outcomes & Standards */}
       <OutcomesSection />
-
-      {/* Consultation Schedule & OPD Desk */}
-      <HospitalOPD />
 
       {/* Patient Education & Interactive Accordion FAQ */}
       <FaqSection />

@@ -13,7 +13,6 @@ export default function Header() {
     { name: 'Philosophy', href: '#philosophy' },
     { name: 'Qualifications', href: '#qualifications' },
     { name: 'Journey', href: '#experience' },
-    { name: 'Schedule', href: '#schedule' },
     { name: 'FAQ', href: '#faq' },
   ];
 
@@ -63,7 +62,7 @@ export default function Header() {
                 { name: 'Specialties', href: '#specialties' },
                 { name: 'Philosophy', href: '#philosophy' },
                 { name: 'Qualifications', href: '#qualifications' },
-                { name: 'Schedule', href: '#schedule' },
+                { name: 'FAQ', href: '#faq' },
               ].map((link) => (
                 <a
                   key={link.name}

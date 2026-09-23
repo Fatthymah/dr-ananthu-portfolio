@@ -14,7 +14,7 @@ export default function Hero() {
           <div className="absolute inset-0 z-0 select-none pointer-events-none">
             {/* Background Doctor Photo - Seated in Modern Hospital Clinic Office */}
             <img
-              src="/images/hero-banner.jpg"
+              src="/images/doctor-hero-real.png"
               alt="Dr. Ananthu N - Specialist General Surgeon"
               className="w-full h-full object-cover object-[78%_25%] sm:object-center select-none"
             />
